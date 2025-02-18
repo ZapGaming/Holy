@@ -1,0 +1,220 @@
+/**
+ * @name Holy 
+ * @author Zap Gaming
+ * @version 1.1.0
+ * @description theme for Vencord/BetterDiscord.
+ * @website https://linktr.ee/zap_gaming
+ * @invite vAh6SfX7s4
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css');
+
+:root {
+  --main-color: #FF7F50; /* Coral for main elements */
+  --hover-color: #FF4500; /* Fiery orange for hover effects */
+  --success-color: #32CD32; /* Lime green for success messages */
+  --danger-color: #8B0000; /* Dark red for danger messages */
+  --url-color: var(--main-color);
+  --background-image: url('https://i.imgur.com/ziHfYay.jpeg'); /* Mystical manticore background image */
+  --background-shading: 80%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 80%;
+  --background-contrast: 120%;
+  --background-saturation: 130%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-overlay: rgba(0,0,0,0.7);
+  --user-popout-image: url('https://i.imgur.com/fjP2yKi.jpeg'); /* Magical user popout image */
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-modal-image: url('https://i.imgur.com/XeTFPOT.jpeg');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-position: center;
+  --home-size: 40px;
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgba(255,255,255,0.1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: 'UnifrakturCook', cursive;
+  --code-font: Consolas;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+  --HSL-server-icon-size: 45px;
+  --HSL-server-spacing: 10px;
+}
+
+/* Base Background and Text Colors */
+html, body, .theme-dark {
+    background-color: #1E1E1E; /* Dark background for a mystical vibe */
+    color: #EAEAEA; /* Light grey text */
+    font-family: var(--main-font);
+}
+
+/* Sidebar Background and Text */
+.sidebar-3K8wQ1 {
+    background-color: rgba(30, 30, 30, 0.95);
+    color: #CCCCCC; /* Lighter grey text for contrast */
+}
+
+.sidebar-3K8wQ1 a {
+    color: var(--main-color); /* Coral links */
+}
+
+/* Channel List Background and Text */
+.container-3baos1 {
+    background-color: rgba(30, 30, 30, 0.95);
+    color: #CCCCCC;
+    width: var(--channels-width);
+}
+
+.wrapper-1BJsBx {
+    color: #CCCCCC;
+}
+
+.wrapper-1BJsBx.selected-aIlaI7 {
+    background-color: var(--hover-color); /* Hover effect */
+}
+
+/* Chat Area Background and Text */
+.chatContent-a9vAAp {
+    background-color: #282828;
+    color: #EAEAEA;
+}
+
+/* Messages Background and Text */
+.message-1PNnaP {
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 5px;
+    color: #FFFFFF; /* White text for clarity */
+}
+
+.message-1PNnaP .username-1A8OIy {
+    color: var(--main-color); /* Coral usernames */
+}
+
+.message-1PNnaP .timestamp-3lIXmR {
+    color: #808080; /* Muted timestamps */
+}
+
+/* Input Box */
+.textArea-1JaVtX {
+    background-color: rgba(30, 30, 30, 0.9);
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid var(--main-color); /* Coral border */
+}
+
+.textArea-1JaVtX:focus {
+    outline: none;
+    border-color: var(--hover-color); /* Fiery orange focused border */
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1E1E1E;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color); /* Coral scrollbar thumb */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--hover-color); /* Hover effect for scrollbar thumb */
+}
+
+/* Server Bar */
+.guilds-1SWlCJ {
+    background-color: rgba(30, 30, 30, 0.95);
+    color: #EAEAEA;
+    width: var(--HSL-server-icon-size);
+    padding: var(--HSL-server-spacing);
+}
+
+.guilds-1SWlCJ .guild-1EfMGQ {
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 50%;
+    margin-bottom: var(--HSL-server-spacing);
+}
+
+.guilds-1SWlCJ .guild-1EfMGQ:hover {
+    background-color: var(--hover-color);
+}
+
+/* Background Image and Overlay */
+html, body {
+    background: var(--background-overlay), url(var(--background-image));
+    background-position: var(--background-position);
+    background-size: var(--background-size);
+    background-repeat: var(--background-repeat);
+    background-attachment: var(--background-attachment);
+    filter: brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) grayscale(var(--background-grayscale)) invert(var(--background-invert));
+}
+
+/* User Popout */
+.userPopout-3XzG_A {
+    background: var(--user-popout-overlay), url(var(--user-popout-image));
+    background-position: var(--user-popout-position);
+    background-size: var(--user-popout-size);
+    background-repeat: var(--user-popout-repeat);
+    background-attachment: var(--user-popout-attachment);
+    filter: brightness(var(--user-popout-brightness)) contrast(var(--user-popout-contrast)) saturate(var(--user-popout-saturation)) grayscale(var(--user-popout-grayscale)) invert(var(--user-popout-invert));
+}
+
+/* User Modal */
+.userModal-3XzG_A {
+    background: var(--user-modal-overlay), url(var(--user-modal-image));
+    background-position: var(--user-modal-position);
+    background-size: var(--user-modal-size);
+    background-repeat: var(--user-modal-repeat);
+    background-attachment: var(--user-modal-attachment);
+    filter: brightness(var(--user-modal-brightness)) contrast(var(--user-modal-contrast)) saturate(var(--user-modal-saturation)) grayscale(var(--user-modal-grayscale)) invert(var(--user-modal-invert));
+}
