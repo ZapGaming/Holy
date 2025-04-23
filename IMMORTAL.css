@@ -1,0 +1,87 @@
+/**
+ * @name Holy Galactic (IMMORTAL)
+ * @author Zap Gaming
+ * @version 1.1.0
+ * @description works best on vencord and replugged
+ * @website https://linktr.ee/zap_gaming
+ * @invite vAh6SfX7s4
+*/
+
+/* copywrite under the Zap Gaming Group  */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css');
+
+:root {
+  --main-color: #1f7bad; 
+  --hover-color: #74ad1f; 
+  --success-color: #ad721f; 
+  --danger-color: #8c1fad; 
+  --url-color: var(--main-color);
+  --background-image: url(''); 
+  --background-shading: 80%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 80%;
+  --background-contrast: 120%;
+  --background-saturation: 130%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-overlay: rgba(0,0,0,0.7);
+  --user-popout-image: url(''); 
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-modal-image: url('');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-position: center;
+  --home-size: 40px;
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgba(255,255,255,0.1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: 'Morisawa', sans-serif;
+  --code-font: Consolas;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+  --HSL-server-icon-size: 45px;
+  --HSL-server
+
